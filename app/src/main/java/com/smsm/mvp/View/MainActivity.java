@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements MainInters.IView 
 
         presenter=new MainPresenter(this);
         res=(TextView)findViewById(R.id.textView);
+        // hello World
     }
 
     public void clicksuc(View view) {
