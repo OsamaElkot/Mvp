@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements MainInters.IView 
         presenter=new MainPresenter(this);
         res=(TextView)findViewById(R.id.textView);
         // hello World back to U
+        // My name Is Smsm
     }
 
     public void clicksuc(View view) {
